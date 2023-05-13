@@ -59,6 +59,7 @@ document.getElementById("change-currency").onclick = function (e) {
         newCurrency = '¥';
         coefficient = 6.9;
     }
+
     e.target.innerText = newCurrency;
 
     for (let i = 0; i < prices.length; i++) {
